@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -40,7 +41,6 @@ a:hover {
 .card {
     width: 600px;
     background-color: white;
-    border: 1px solid #EEEEEE;
     border-radius: 3px;
     box-shadow: 0px 10px 30px #F4F4F4;
     padding: 40px;
@@ -72,12 +72,7 @@ ul {
     object-position: center 5%;
 }
 
-.btn-gold {
-    background-color: #FFEBC1;
-    color: #85586F;
-    padding: 15px 20px;
-    border-radius: 4px;
-}
+
 
 @media (max-width: 960px) {
     .container {
