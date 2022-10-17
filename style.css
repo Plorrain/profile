@@ -74,11 +74,14 @@ ul {
 
 span {
   opacity: 0;
-  transition: all 2s ease;
+  transition: all 1s ease;
+  transform: translateY(50px);
+  display: inline-block;
 }
 
 span.fade {
   opacity: 1;
+  transform: translateY(0px);
 }
 
 
